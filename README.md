@@ -1,83 +1,114 @@
+<!-- Optional hero banner. Drop the file in and uncomment.
+<p align="center"><img src="assets/banner.jpg" alt="Nuno Amorim"></p>
+-->
+
 <h1 align="center">Nuno Amorim</h1>
 
 <p align="center">
-  <b>Product Manager who still ships code.</b><br/>
-  Engineer &rarr; Product Owner &rarr; PM, all on the same product. I write the spec, then I help build it.
+  <b>AI Product Engineer</b> &nbsp;&middot;&nbsp; Product Manager &nbsp;&middot;&nbsp; Front-End Engineer<br/>
+  <sub>I build with foundation models and ship real products. Braga, Portugal.</sub>
 </p>
 
 <p align="center">
-  <a href="https://nunoamorim99.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=for-the-badge&logoColor=white&labelColor=1E293B" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/nunoamorim99"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1E293B" alt="LinkedIn"></a>
-  <a href="mailto:nunomamorim99@gmail.com"><img src="https://img.shields.io/badge/Email-64748B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1E293B" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Braga,_Portugal-1E293B?style=for-the-badge" alt="Braga, Portugal">
+  <a href="https://nunoamorim99.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-12B9A6?style=for-the-badge&logoColor=white&labelColor=1F2328" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/nunoamorim99"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1F2328" alt="LinkedIn"></a>
+  <a href="mailto:nunomamorim99@gmail.com"><img src="https://img.shields.io/badge/Email-64748B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1F2328" alt="Email"></a>
 </p>
 
 ---
 
-### About
+### `01` — Profile
 
-I'm a Product Manager at **Foco Criativo** in Braga, Portugal. I started there as a front-end engineer, moved to Product Owner, then to PM - three roles, one product. Keeping a foot in code is deliberate: it means I can prototype an idea instead of describing it, pressure-test a spec before a team commits to it, and stay honest about what things actually cost to build.
+Product Manager at **Foco Criativo**, and an engineer who never stopped shipping. I came up through code - Software Engineer, then Product Owner, then Product Manager, all on the same product - and I still write front-end code today. Staying close to the craft is deliberate: it means I prototype an idea instead of describing it, and I write specs engineers can actually build from.
 
-What I care about: framing the problem properly before jumping to a solution, interfaces that respect the user's time, and figuring out where AI creates real product value versus where it's just noise.
+The work I care most about right now is applied AI. Not research - **building**. Foundation models in the loop, real products, real users, and an honest read on where AI creates value versus where it's just noise.
 
----
-
-### What I'm building
-
-**Movize** - a multimodal mobility ecosystem. A passenger app, the **Movize Connect** portal (GTFS editor, street furniture & sensors, events), an operators app, and the public web app. I own the roadmap end-to-end, run discovery and validation, and still write front-end code for it.
-
-It's closed source, so it doesn't live here - the story is in my [portfolio](https://nunoamorim99.github.io/Portfolio/).
+I don't think you understand a technology until you've built something with it. Everything below is me finding out.
 
 ---
 
-### Product management, as plain Markdown
+### `02` — Selected AI work
 
-PM tooling lives *away* from the code. Jira in one tab, the repo in another, and the "why" evaporates somewhere between them. So I built the layer that doesn't - a set of [Claude Code](https://docs.claude.com/en/docs/claude-code) skills where the whole product-management surface is Markdown files sitting next to the source, diffable and reviewable like anything else.
+If a model is part of how the team works, the product-management layer has to live where the model can actually see it. Not in Jira - in the repo. So I built it: three installable [Claude Code](https://docs.claude.com/en/docs/claude-code) skills. Plain Markdown, zero dependencies, zero hosting.
 
-| | What it does |
-|---|---|
-| **[Agile-Ledger](https://github.com/nunoamorim99/Agile-Ledger)** | The full Scrum lifecycle from slash commands - epics, user stories, sprints, velocity, bugs, releases, roadmap. No Jira, no database. GitHub holds the code; Agile-Ledger holds the *why*, joined by user-story ID through every branch and PR. |
-| **[Idea-Ledger](https://github.com/nunoamorim99/Idea-Ledger)** | Capture ideas, track how each one evolves, version what ships - in two Markdown files. Built on one invariant: **nothing is ever deleted**. A shipped idea stays in the backlog forever, accumulating history. |
-| **[Cartographer](https://github.com/nunoamorim99/Cartographer)** | Reads your repos and writes stakeholder documentation - what each product does and why it matters, never how it's built. Markdown + PDF, read-only, audience-aware, and it cites where every fact came from. |
-
----
-
-### Games, built to learn things
-
-| | |
-|---|---|
-| **[Nibble](https://github.com/nunoamorim99/nibble)** &nbsp;[▶ play](https://nunoamorim99.github.io/nibble/) | The Nokia snake, reborn as an installable PWA. Level mode, composable difficulty modifiers, unlockable themes, a Supabase-backed global leaderboard, and cross-device progress with no login. TypeScript + Canvas + Vite. |
-| **[Astro Hop](https://github.com/nunoamorim99/AstroHop)** &nbsp;[▶ play](https://nunoamorim99.github.io/AstroHop/) | A retro 2D platformer - power-up state machines, tilemap levels, mobile touch controls, and every sound synthesized live with the Web Audio API (zero audio files). Phaser 3 + Vite. |
-
-Both were also deliberate experiments in how far a frontier model goes as a coding partner - where it excels, where it needs steering. Built with AI in the loop, and I'd rather say that plainly than pretend otherwise.
+<table>
+  <tr>
+    <td width="33%"><a href="https://github.com/nunoamorim99/Agile-Ledger"><img src="assets/agile-ledger.jpg" alt="Agile-Ledger"></a></td>
+    <td width="33%"><a href="https://github.com/nunoamorim99/Idea-Ledger"><img src="assets/idea-ledger.jpg" alt="Idea-Ledger"></a></td>
+    <td width="33%"><a href="https://github.com/nunoamorim99/Cartographer"><img src="assets/cartographer.jpg" alt="Cartographer"></a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="https://github.com/nunoamorim99/Agile-Ledger">Agile-Ledger</a></b><br/><sub>The full Scrum lifecycle - epics, sprints, velocity, bugs, releases - as plain Markdown in your repo, driven by slash commands. GitHub holds the code; this holds the <i>why</i>.</sub></td>
+    <td valign="top"><b><a href="https://github.com/nunoamorim99/Idea-Ledger">Idea-Ledger</a></b><br/><sub>Capture ideas, track how each evolves, version what ships - in two Markdown files. One invariant: nothing is ever deleted.</sub></td>
+    <td valign="top"><b><a href="https://github.com/nunoamorim99/Cartographer">Cartographer</a></b><br/><sub>Reads a project's repos and writes the stakeholder docs nobody wants to write - what each product does, never how it's built. Markdown + PDF.</sub></td>
+  </tr>
+</table>
 
 ---
 
-### Toolbox
+### `03` — Experiments
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-1E293B?style=flat-square&logo=javascript&logoColor=F7DF1E">
-  <img src="https://img.shields.io/badge/TypeScript-1E293B?style=flat-square&logo=typescript&logoColor=3178C6">
-  <img src="https://img.shields.io/badge/Vue-1E293B?style=flat-square&logo=vuedotjs&logoColor=4FC08D">
-  <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=61DAFB">
-  <img src="https://img.shields.io/badge/Vite-1E293B?style=flat-square&logo=vite&logoColor=646CFF">
-  <img src="https://img.shields.io/badge/Tailwind-1E293B?style=flat-square&logo=tailwindcss&logoColor=06B6D4">
-  <img src="https://img.shields.io/badge/Supabase-1E293B?style=flat-square&logo=supabase&logoColor=3ECF8E">
-  <img src="https://img.shields.io/badge/Figma-1E293B?style=flat-square&logo=figma&logoColor=F24E1E">
-  <img src="https://img.shields.io/badge/Jira-1E293B?style=flat-square&logo=jira&logoColor=0052CC">
-  <img src="https://img.shields.io/badge/Claude_Code-1E293B?style=flat-square&logo=anthropic&logoColor=D97757">
-</p>
+Games are unforgiving in a way that CRUD apps aren't: the loop either works or it doesn't, and no architecture diagram saves you. Both were built with a model in the loop, which was half the point - finding out where it excels as a coding partner and where it needs steering.
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://nunoamorim99.github.io/nibble/"><img src="assets/nibble.jpg" alt="Nibble"></a></td>
+    <td width="50%"><a href="https://nunoamorim99.github.io/AstroHop/"><img src="assets/astro-hop.jpg" alt="Astro Hop"></a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b><a href="https://github.com/nunoamorim99/nibble">Nibble</a></b> &nbsp;<a href="https://nunoamorim99.github.io/nibble/">▶ play</a><br/><sub>The Nokia snake, rebuilt as an installable PWA - composable difficulty modifiers, unlockable themes, a Supabase-backed global leaderboard, and cross-device progress with no login.<br/><br/>TypeScript · Canvas · Vite · Supabase</sub></td>
+    <td valign="top"><b><a href="https://github.com/nunoamorim99/AstroHop">Astro Hop</a></b> &nbsp;<a href="https://nunoamorim99.github.io/AstroHop/">▶ play</a><br/><sub>A retro 2D platformer, and an excuse to learn game feel properly - power-up state machines, tilemap levels, mobile touch controls, and every sound synthesized live with the Web Audio API. Zero audio files.<br/><br/>Phaser 3 · Vite</sub></td>
+  </tr>
+</table>
 
 ---
 
-### Credentials
+### `04` — Product
 
-**M.Sc. Information Systems Engineering & Management** - Universidade do Minho, 2024
-**IBM AI Product Manager** - Professional Certificate (10 courses)
-Plus IBM Product Owner, Meta Front-End Development, Microsoft UX Design.
+<table>
+  <tr>
+    <td width="45%"><img src="assets/movize.jpg" alt="Movize"></td>
+    <td valign="top"><b>Movize</b> — a multimodal mobility ecosystem at Foco Criativo.<br/><br/>A passenger app, the <b>Movize Connect</b> portal (GTFS editor, street furniture &amp; sensors, events), an operators app, and the public web app. I own the roadmap end to end, run discovery and validation, and still ship front-end code for it.<br/><br/>Closed source, so it isn't here - the story is in my <a href="https://nunoamorim99.github.io/Portfolio/">portfolio</a>.</td>
+  </tr>
+</table>
+
+---
+
+### `05` — Stack
+
+<sub>**Languages & runtime**</sub><br/>
+<img src="https://img.shields.io/badge/TypeScript-1F2328?style=flat-square&logo=typescript&logoColor=3178C6">
+<img src="https://img.shields.io/badge/JavaScript-1F2328?style=flat-square&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/Node.js-1F2328?style=flat-square&logo=nodedotjs&logoColor=5FA04E">
+
+<sub>**Frameworks**</sub><br/>
+<img src="https://img.shields.io/badge/Vue-1F2328?style=flat-square&logo=vuedotjs&logoColor=4FC08D">
+<img src="https://img.shields.io/badge/React-1F2328?style=flat-square&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/React_Native-1F2328?style=flat-square&logo=react&logoColor=61DAFB">
+<img src="https://img.shields.io/badge/Next.js-1F2328?style=flat-square&logo=nextdotjs&logoColor=FFFFFF">
+<img src="https://img.shields.io/badge/Vite-1F2328?style=flat-square&logo=vite&logoColor=646CFF">
+
+<sub>**Interface & motion**</sub><br/>
+<img src="https://img.shields.io/badge/Tailwind-1F2328?style=flat-square&logo=tailwindcss&logoColor=06B6D4">
+<img src="https://img.shields.io/badge/GSAP-1F2328?style=flat-square&logo=greensock&logoColor=88CE02">
+<img src="https://img.shields.io/badge/three.js-1F2328?style=flat-square&logo=threedotjs&logoColor=FFFFFF">
+<img src="https://img.shields.io/badge/Phaser-1F2328?style=flat-square&logoColor=8B5CF6">
+
+<sub>**Platform & tooling**</sub><br/>
+<img src="https://img.shields.io/badge/Supabase-1F2328?style=flat-square&logo=supabase&logoColor=3ECF8E">
+<img src="https://img.shields.io/badge/Cloudflare-1F2328?style=flat-square&logo=cloudflare&logoColor=F38020">
+<img src="https://img.shields.io/badge/Claude_Code-1F2328?style=flat-square&logo=anthropic&logoColor=D97757">
+<img src="https://img.shields.io/badge/Figma-1F2328?style=flat-square&logo=figma&logoColor=F24E1E">
+
+---
+
+### `06` — Credentials
+
+**M.Sc. Information Systems Engineering & Management** · Universidade do Minho
+**IBM AI Product Manager** · Professional Certificate
 
 ---
 
 <p align="center">
-  <i>Portuguese (native) &middot; English (fluent) &middot; open to conversations about AI-powered products</i>
+  <sub>Portuguese (native) · English (fluent) &nbsp;&middot;&nbsp; open to conversations about building with AI</sub>
 </p>
