@@ -33,9 +33,9 @@ If a model is part of how the team works, the product-management layer has to li
 
 <table>
   <tr>
-    <td width="33%"><a href="https://github.com/nunoamorim99/Agile-Ledger"><img src="assets/agile-ledger.jpg" alt="Agile-Ledger"></a></td>
-    <td width="33%"><a href="https://github.com/nunoamorim99/Idea-Ledger"><img src="assets/idea-ledger.jpg" alt="Idea-Ledger"></a></td>
-    <td width="33%"><a href="https://github.com/nunoamorim99/Cartographer"><img src="assets/cartographer.jpg" alt="Cartographer"></a></td>
+    <td width="33%"><a href="https://github.com/nunoamorim99/Agile-Ledger"><img src="assets/agile-ledger.png" alt="Agile-Ledger"></a></td>
+    <td width="33%"><a href="https://github.com/nunoamorim99/Idea-Ledger"><img src="assets/idea-ledger.png" alt="Idea-Ledger"></a></td>
+    <td width="33%"><a href="https://github.com/nunoamorim99/Cartographer"><img src="assets/cartographer.png" alt="Cartographer"></a></td>
   </tr>
   <tr>
     <td valign="top"><b><a href="https://github.com/nunoamorim99/Agile-Ledger">Agile-Ledger</a></b><br/><sub>The full Scrum lifecycle - epics, sprints, velocity, bugs, releases - as plain Markdown in your repo, driven by slash commands. GitHub holds the code; this holds the <i>why</i>.</sub></td>
@@ -52,8 +52,8 @@ Games are unforgiving in a way that CRUD apps aren't: the loop either works or i
 
 <table>
   <tr>
-    <td width="50%"><a href="https://nunoamorim99.github.io/nibble/"><img src="assets/nibble.jpg" alt="Nibble"></a></td>
-    <td width="50%"><a href="https://nunoamorim99.github.io/AstroHop/"><img src="assets/astro-hop.jpg" alt="Astro Hop"></a></td>
+    <td width="50%"><a href="https://nunoamorim99.github.io/nibble/"><img src="assets/nibble.png" alt="Nibble"></a></td>
+    <td width="50%"><a href="https://nunoamorim99.github.io/AstroHop/"><img src="assets/astrocover.jpeg" alt="Astro Hop"></a></td>
   </tr>
   <tr>
     <td valign="top"><b><a href="https://github.com/nunoamorim99/nibble">Nibble</a></b> &nbsp;<a href="https://nunoamorim99.github.io/nibble/">▶ play</a><br/><sub>The Nokia snake, rebuilt as an installable PWA - composable difficulty modifiers, unlockable themes, a Supabase-backed global leaderboard, and cross-device progress with no login.<br/><br/>TypeScript · Canvas · Vite · Supabase</sub></td>
@@ -67,7 +67,7 @@ Games are unforgiving in a way that CRUD apps aren't: the loop either works or i
 
 <table>
   <tr>
-    <td width="45%"><img src="assets/movize.jpg" alt="Movize"></td>
+    <td width="45%"><img src="assets/movize.png" alt="Movize"></td>
     <td valign="top"><b>Movize</b> — a multimodal mobility ecosystem at Foco Criativo.<br/><br/>A passenger app, the <b>Movize Connect</b> portal (GTFS editor, street furniture &amp; sensors, events), an operators app, and the public web app. I own the roadmap end to end, run discovery and validation, and still ship front-end code for it.<br/><br/>Closed source, so it isn't here - the story is in my <a href="https://nunoamorim99.github.io/Portfolio/">portfolio</a>.</td>
   </tr>
 </table>
