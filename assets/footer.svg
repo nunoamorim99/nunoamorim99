@@ -5,11 +5,11 @@
 .w2 { animation-duration: 17s; }
 @keyframes flow { from { transform: translateX(0); } to { transform: translateX(-600px); } }
 text { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .role { opacity: 0; } .role-0 { opacity: 1; } .role-0 .clip { transform: none; } .dot { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .role { opacity: 0; } .role-0 { opacity: 1; } .role-0 .clip { transform: none; } .px { opacity: 0; } .photo { opacity: 1; } }
 </style>
 <clipPath id="c"><rect width="1200" height="120" rx="20"/></clipPath>
 <g clip-path="url(#c)">
-  <rect width="1200" height="120" fill="#0B0F14"/>
+  <rect width="1200" height="120" fill="#121A23"/>
   <path class="w w0" d="M0 82 Q 150 68 300 82 Q 450 96 600 82 Q 750 68 900 82 Q 1050 96 1200 82 Q 1350 68 1500 82 Q 1650 96 1800 82 Q 1950 68 2100 82 Q 2250 96 2400 82" fill="none" stroke="#12B9A6" stroke-opacity="0.9" stroke-width="2"/><path class="w w1" d="M0 82 Q 150 62 300 82 Q 450 102 600 82 Q 750 62 900 82 Q 1050 102 1200 82 Q 1350 62 1500 82 Q 1650 102 1800 82 Q 1950 62 2100 82 Q 2250 102 2400 82" fill="none" stroke="#8B5CF6" stroke-opacity="0.7" stroke-width="2"/><path class="w w2" d="M0 82 Q 150 72 300 82 Q 450 92 600 82 Q 750 72 900 82 Q 1050 92 1200 82 Q 1350 72 1500 82 Q 1650 92 1800 82 Q 1950 72 2100 82 Q 2250 92 2400 82" fill="none" stroke="#E8A23D" stroke-opacity="0.5" stroke-width="2"/>
 </g>
 <text x="600.0" y="34" text-anchor="middle" font-size="14" fill="#E6EDF3" letter-spacing="2">THANKS FOR STOPPING BY</text>

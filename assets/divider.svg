@@ -9,7 +9,7 @@
 <style>
 .beam { animation: sweep 5s cubic-bezier(.6,0,.4,1) infinite; }
 @keyframes sweep { from { transform: translateX(-320px); } to { transform: translateX(1200px); } }
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .role { opacity: 0; } .role-0 { opacity: 1; } .role-0 .clip { transform: none; } .dot { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .role { opacity: 0; } .role-0 { opacity: 1; } .role-0 .clip { transform: none; } .px { opacity: 0; } .photo { opacity: 1; } }
 </style>
 <rect x="0" y="11.5" width="1200" height="1" fill="#8B949E" opacity=".25"/>
 <rect class="beam" x="0" y="11" width="320" height="2" rx="1" fill="url(#g)"/>

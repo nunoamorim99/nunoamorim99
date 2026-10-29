@@ -21,7 +21,104 @@ I don't think you understand a technology until you've built something with it. 
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-### `02` — Claude Code plugins
+### `02` — Credentials
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>EDUCATION</sub><br/>
+      <b>M.Sc. Information Systems Engineering &amp; Management</b><br/>
+      Universidade do Minho · 2019 – 2024
+    </td>
+    <td width="50%" valign="top">
+      <sub>PROFESSIONAL CERTIFICATES</sub><br/>
+      <b><a href="https://www.coursera.org/account/accomplishments/specialization/H2FRSDLQH7ZG">IBM AI Product Manager</a></b><br/>
+      <b><a href="https://www.coursera.org/account/accomplishments/professional-cert/1VZE2U1KRG7S">IBM Product Owner</a></b><br/>
+      <b><a href="https://www.coursera.org/account/accomplishments/certificate/7LC6G5V3FWM3">Microsoft UX Design</a></b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <sub>EXPERIENCE · FOCO CRIATIVO</sub><br/>
+      <b>Product Manager</b> <sub>Nov 2025 – now</sub> &nbsp;←&nbsp; <b>Product Owner</b> <sub>Nov 2024 – Nov 2025</sub> &nbsp;←&nbsp; <b>Software Engineer</b> <sub>Jun – Nov 2024</sub> &nbsp;←&nbsp; <b>Intern</b> <sub>Jan – Jun 2024</sub>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+### `03` — Product: Movize
+
+<p align="center">
+  <a href="https://movize.pt/"><img src="assets/movize/banner.webp" width="100%" alt="Movize"></a>
+</p>
+
+<p align="center"><i>Centralising Portugal's urban transport - and giving operators the tools to go digital.</i><br/>
+<sub>Product Manager · Product Owner · 2024 – present &nbsp;·&nbsp; <a href="https://movize.pt/">movize.pt</a> &nbsp;·&nbsp; <a href="https://movize.app/">movize.app</a> &nbsp;·&nbsp; <a href="https://nunoamorim.dev">case study</a></sub></p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><sub>THE PROBLEM</sub><br/>Portugal had no native app that brought every urban-transport operator together. Riders juggled scattered sources - or went without - just to plan a trip across operators and modes.</td>
+    <td width="33%" valign="top"><sub>THE PIVOT</sub><br/>Integrating operators surfaced the real problem: most of them, especially the small ones, had <b>no digital tooling at all</b> and couldn't afford to hire someone to digitise their network.</td>
+    <td width="33%" valign="top"><sub>THE ECOSYSTEM</sub><br/>So Movize grew from an app into a platform: rider apps on top, and <b>Movize Connect</b> underneath, where operators, event organisers and infrastructure owners manage their own data.</td>
+  </tr>
+</table>
+
+**For riders** - routes, stops and schedules from every operator in one place.
+
+<table>
+  <tr>
+    <td width="33%"><img src="assets/movize/mobile-app.webp" alt="Movize mobile app"></td>
+    <td width="33%"><a href="https://movize.app/"><img src="assets/movize/web-app.webp" alt="Movize web app"></a></td>
+    <td width="33%"><a href="https://movize.pt/"><img src="assets/movize/website.webp" alt="Movize website"></a></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Mobile app</b><br/><sub>iOS &amp; Android. Multimodal trip planning across operators, built in React Native + Expo.</sub></td>
+    <td valign="top"><b><a href="https://movize.app/">Web app</a></b><br/><sub>The core experience in any browser, with a deliberately narrower scope than the native app.</sub></td>
+    <td valign="top"><b><a href="https://movize.pt/">Website</a></b><br/><sub>The front door: turns a multi-product platform into a simple pitch for operators and municipalities.</sub></td>
+  </tr>
+</table>
+
+**For operators - Movize Connect**, the back office, built module by module.
+
+<table>
+  <tr>
+    <td width="33%"><img src="assets/movize/mod-gtfs.webp" alt="GTFS Management module"></td>
+    <td width="33%"><img src="assets/movize/mod-network-map.webp" alt="Network Map module"></td>
+    <td width="33%"><img src="assets/movize/mod-events.webp" alt="Events module"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>GTFS Management</b><br/><sub>Build GTFS feeds from scratch, so even un-digitised networks can come online.</sub></td>
+    <td valign="top"><b>Network Map</b><br/><sub>Design and maintain the network map riders see in the app.</sub></td>
+    <td valign="top"><b>Events</b><br/><sub>Organisers publish events together with the dedicated routes and buses serving them.</sub></td>
+  </tr>
+  <tr>
+    <td><img src="assets/movize/mod-sensors.webp" alt="Street Furniture and Sensors module"></td>
+    <td><img src="assets/movize/mod-news.webp" alt="News module"></td>
+    <td><img src="assets/movize/mod-drivers.webp" alt="Drivers module"></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Street Furniture &amp; Sensors</b><br/><sub>Shelters, stops and LoRaWAN sensors on a map, with the data they collect.</sub></td>
+    <td valign="top"><b>News</b><br/><sub>Service updates published straight to riders.</sub></td>
+    <td valign="top"><b>Drivers</b><br/><sub>Fleet and driver management, with a companion driver app.</sub></td>
+  </tr>
+</table>
+
+**Decisions I'd make again**
+- **Bet on the ecosystem, not just the app.** Helping small operators digitise was the unlock for rider coverage *and* a sustainable business model.
+- **Prioritise the operator portal.** The back office is where the ecosystem's value - and its path to revenue - actually lives.
+- **Ship Events as a growth bet.** Events already run dedicated transport but had nowhere to announce it; the module drives real-world usage and keeps the app full of timely content.
+- **Build feedback into the product.** Riders, operators and admins are connected directly, so real pain points surface fast instead of getting lost in a backlog.
+
+**My part:** I own the roadmap end to end, run discovery and validation with operators and riders, write the stories the team builds from - and still ship front-end code.
+
+> *"Exactly what Portugal needs."* - the feedback that keeps coming back from riders and operators as new modules roll out.
+
+<sub>Platform: React Native + Expo · Vue 3 · Python (FastAPI) microservices over gRPC · Symfony · OpenTripPlanner · PostgreSQL + PostGIS · Redis · MQTT / LoRaWAN · Google Kubernetes Engine. Closed source - the full story is in my <a href="https://nunoamorim.dev">portfolio</a>.</sub>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+### `04` — Claude Code plugins
 
 If a model is part of how the team works, the product-management layer has to live where the model can actually see it. Not in Jira - in the repo. So I built it, and then kept going: five [Claude Code](https://docs.claude.com/en/docs/claude-code) plugins that cover the work around the code - ideas, sprints, stakeholder docs and product protection. Plain Markdown, no database, nothing to host.
 
@@ -57,15 +154,11 @@ All five live in one marketplace - [`nunoamorim99/claude-skills`](https://github
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-### `03` — Games
-
-Games are unforgiving in a way that CRUD apps aren't: the loop either works or it doesn't, and no architecture diagram saves you. All three were built with a model in the loop, which was half the point - finding out where it excels as a coding partner and where it needs steering.
+### `05` — Beagle Chomp
 
 <p align="center">
   <a href="https://beaglechomp.nunoamorim.dev"><img src="assets/beagle-chomp/hero.png" width="100%" alt="Beagle Chomp"></a>
 </p>
-
-<h3 align="center"><a href="https://beaglechomp.nunoamorim.dev">Beagle Chomp</a> &nbsp;<sub><sup>NEW</sup></sub></h3>
 
 <p align="center"><i>A 3D maze chase where every single pixel is drawn in code.</i></p>
 
@@ -99,7 +192,11 @@ It started as an excuse to learn three.js by building something real with it - a
   <a href="https://beaglechomp.nunoamorim.dev"><b>▶ Play it</b></a> &nbsp;·&nbsp; <a href="https://github.com/nunoamorim99/beagle-chomp">Source</a> &nbsp;·&nbsp; <a href="https://nunoamorim.dev">Case study</a>
 </p>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt="">
+
+### `06` — More games
+
+Games are unforgiving in a way that CRUD apps aren't: the loop either works or it doesn't, and no architecture diagram saves you. Both were built with a model in the loop, which was half the point - finding out where it excels as a coding partner and where it needs steering.
 
 <table>
   <tr>
@@ -114,54 +211,25 @@ It started as an excuse to learn three.js by building something real with it - a
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-### `04` — Product
+### `07` — Stack
 
-<table>
-  <tr>
-    <td width="45%"><img src="assets/movize.png" alt="Movize"></td>
-    <td valign="top"><b>Movize</b> — a multimodal mobility ecosystem at Foco Criativo.<br/><br/>A passenger app for iOS and Android, the public web app and website, and the <b>Movize Connect</b> operator platform with its GTFS editor, street furniture &amp; sensors and events modules. I own the roadmap end to end, run discovery and validation, and still ship front-end code for it.<br/><br/>Closed source, so it isn't here - the story is in my <a href="https://nunoamorim.dev">portfolio</a>.</td>
-  </tr>
-</table>
+<sub>**LANGUAGES**</sub><br/>
+<img src="assets/stack/languages.svg" alt="TypeScript, JavaScript, Python, HTML, CSS">
 
-<img src="assets/divider.svg" width="100%" alt="">
+<sub>**FRONT-END & MOBILE**</sub><br/>
+<img src="assets/stack/frontend.svg" alt="Vue, React, React Native, Expo, Next.js, Vite, Tailwind, Vuetify, GSAP, PWA">
 
-### `05` — Stack
+<sub>**3D, GAMES & AUDIO**</sub><br/>
+<img src="assets/stack/games.svg" alt="three.js, Phaser, Web Audio, Canvas 2D">
 
-<sub>**Languages**</sub><br/>
-<img src="https://skillicons.dev/icons?i=ts,js,python,html,css&theme=dark" alt="TypeScript, JavaScript, Python, HTML, CSS">
+<sub>**BACK-END & DATA**</sub><br/>
+<img src="assets/stack/backend.svg" alt="Node.js, Hono, Zod, PostgreSQL, Supabase">
 
-<sub>**Front-end, 3D & games**</sub><br/>
-<img src="https://skillicons.dev/icons?i=vue,react,nextjs,vite,tailwind,threejs&theme=dark" alt="Vue, React, Next.js, Vite, Tailwind, three.js"><br/>
-<img src="https://img.shields.io/badge/React_Native-1F2328?style=flat-square&logo=react&logoColor=61DAFB">
-<img src="https://img.shields.io/badge/GSAP-1F2328?style=flat-square&logo=greensock&logoColor=88CE02">
-<img src="https://img.shields.io/badge/Phaser-1F2328?style=flat-square&logoColor=8B5CF6">
-<img src="https://img.shields.io/badge/Web_Audio_API-1F2328?style=flat-square&logoColor=E8A23D">
-<img src="https://img.shields.io/badge/Canvas_2D-1F2328?style=flat-square&logoColor=FFFFFF">
-<img src="https://img.shields.io/badge/PWA-1F2328?style=flat-square&logo=pwa&logoColor=5A0FC8">
+<sub>**TESTING, INFRA & DELIVERY**</sub><br/>
+<img src="assets/stack/delivery.svg" alt="Vitest, Playwright, Docker, GitHub Actions, Cloudflare, Hetzner, Dokploy, Git">
 
-<sub>**Back-end & data**</sub><br/>
-<img src="https://skillicons.dev/icons?i=nodejs,postgres,supabase&theme=dark" alt="Node.js, PostgreSQL, Supabase"><br/>
-<img src="https://img.shields.io/badge/Hono-1F2328?style=flat-square&logo=hono&logoColor=E36002">
-<img src="https://img.shields.io/badge/Zod-1F2328?style=flat-square&logo=zod&logoColor=3E67B1">
-
-<sub>**Testing, infra & delivery**</sub><br/>
-<img src="https://skillicons.dev/icons?i=vitest,docker,cloudflare,githubactions,git&theme=dark" alt="Vitest, Docker, Cloudflare, GitHub Actions, Git"><br/>
-<img src="https://img.shields.io/badge/Playwright-1F2328?style=flat-square&logoColor=2EAD33">
-<img src="https://img.shields.io/badge/Hetzner-1F2328?style=flat-square&logo=hetzner&logoColor=D50C2D">
-<img src="https://img.shields.io/badge/Dokploy-1F2328?style=flat-square&logoColor=FFFFFF">
-
-<sub>**AI, product & design**</sub><br/>
-<img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="Figma"><br/>
-<img src="https://img.shields.io/badge/Claude_Code-1F2328?style=flat-square&logo=anthropic&logoColor=D97757">
-<img src="https://img.shields.io/badge/Jira-1F2328?style=flat-square&logo=jira&logoColor=0052CC">
-<img src="https://img.shields.io/badge/Scrum_%26_Kanban-1F2328?style=flat-square&logoColor=FFFFFF">
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-### `06` — Credentials
-
-**M.Sc. Information Systems Engineering & Management** · Universidade do Minho<br/>
-**IBM AI Product Manager** · **IBM Product Owner** · **Microsoft UX Design** · Professional Certificates
+<sub>**AI, PRODUCT & DESIGN**</sub><br/>
+<img src="assets/stack/product.svg" alt="Claude Code, Figma, Jira, Scrum and Kanban">
 
 <img src="assets/divider.svg" width="100%" alt="">
 
