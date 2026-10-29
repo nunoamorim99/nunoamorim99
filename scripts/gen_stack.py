@@ -14,7 +14,7 @@ OUT = Path(sys.argv[1]) / "stack"
 SI = "https://cdn.jsdelivr.net/npm/simple-icons@15.0.0"
 SANS = "'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif"
 
-TILE, GAP, ICON, PAD = 64, 22, 32, 12
+TILE, GAP, ICON, PAD, TOP = 64, 22, 32, 12, 8
 CELL = TILE + GAP
 
 # Glyphs for tools without a published mark, drawn on a 24x24 grid.
@@ -77,16 +77,16 @@ def icon_markup(slug, colours, x, y):
 
 
 def row(items, colours):
-    W, H = CELL * len(items) - GAP + 2 * PAD, TILE + 26
+    W, H = CELL * len(items) - GAP + 2 * PAD, TOP + TILE + 26
     tiles, css = [], []
     for i, (slug, label) in enumerate(items):
         x = PAD + i * CELL
         css.append(f".t{i} {{ animation-delay: {i * .07:.2f}s; }} .t{i} .bob {{ animation-delay: {i * .18 - 3:.2f}s; }}")
         tiles.append(f"""
 <g class="t t{i}"><g class="bob">
-  <rect x="{x + .5}" y=".5" width="{TILE - 1}" height="{TILE - 1}" rx="15" fill="#161B22" stroke="#30363D"/>
-  {icon_markup(slug, colours, x + (TILE - ICON) / 2, (TILE - ICON) / 2)}
-  <text class="label" x="{x + TILE / 2}" y="{TILE + 18}" text-anchor="middle">{label}</text>
+  <rect x="{x + .5}" y="{TOP + .5}" width="{TILE - 1}" height="{TILE - 1}" rx="15" fill="#161B22" stroke="#30363D"/>
+  {icon_markup(slug, colours, x + (TILE - ICON) / 2, TOP + (TILE - ICON) / 2)}
+  <text class="label" x="{x + TILE / 2}" y="{TOP + TILE + 18}" text-anchor="middle">{label}</text>
 </g></g>""")
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{', '.join(l for _, l in items)}">
 <style>

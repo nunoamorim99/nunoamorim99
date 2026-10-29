@@ -16,7 +16,7 @@ OUT = Path(sys.argv[1])
 SANS = "'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace"
 
-BG = "#121A23"
+BG = "#17212C"
 INK = "#E6EDF3"
 MUTED = "#8B949E"
 TEAL = "#12B9A6"
@@ -132,9 +132,6 @@ def header():
     css = [f"""
 text {{ font-family: {SANS}; }}
 .mono {{ font-family: {MONO}; }}
-.orb {{ animation: drift 22s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }}
-.orb.b {{ animation-duration: 28s; animation-delay: -9s; }}
-@keyframes drift {{ 0% {{ transform: translate(0,0) scale(1); }} 50% {{ transform: translate(30px,-20px) scale(1.1); }} 100% {{ transform: translate(-20px,15px) scale(.95); }} }}
 .grid {{ animation: pan 30s linear infinite; }}
 @keyframes pan {{ to {{ transform: translate(-40px,-40px); }} }}
 .rise {{ animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }}
@@ -203,16 +200,11 @@ text {{ font-family: {SANS}; }}
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
     <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".04"/>
   </pattern>
-  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
   <clipPath id="card"><rect width="{W}" height="{H}" rx="20"/></clipPath>{av_defs}
 </defs>
 <style>{''.join(css)}</style>
 <g clip-path="url(#card)">
   <rect width="{W}" height="{H}" fill="{BG}"/>
-  <g filter="url(#blur)" opacity=".16">
-    <circle class="orb" cx="160" cy="60" r="170" fill="{TEAL}"/>
-    <circle class="orb b" cx="1010" cy="300" r="190" fill="{VIOLET}"/>
-  </g>
   <rect class="grid" width="{W + 80}" height="{H + 80}" fill="url(#grid)"/>
   <rect width="{W}" height="{H}" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
 

@@ -21,29 +21,9 @@ I don't think you understand a technology until you've built something with it. 
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-### `02` — Credentials
+### `02` — Education
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>EDUCATION</sub><br/>
-      <b>M.Sc. Information Systems Engineering &amp; Management</b><br/>
-      Universidade do Minho · 2019 – 2024
-    </td>
-    <td width="50%" valign="top">
-      <sub>PROFESSIONAL CERTIFICATES</sub><br/>
-      <b><a href="https://www.coursera.org/account/accomplishments/specialization/H2FRSDLQH7ZG">IBM AI Product Manager</a></b><br/>
-      <b><a href="https://www.coursera.org/account/accomplishments/professional-cert/1VZE2U1KRG7S">IBM Product Owner</a></b><br/>
-      <b><a href="https://www.coursera.org/account/accomplishments/certificate/7LC6G5V3FWM3">Microsoft UX Design</a></b>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <sub>EXPERIENCE · FOCO CRIATIVO</sub><br/>
-      <b>Product Manager</b> <sub>Nov 2025 – now</sub> &nbsp;←&nbsp; <b>Product Owner</b> <sub>Nov 2024 – Nov 2025</sub> &nbsp;←&nbsp; <b>Software Engineer</b> <sub>Jun – Nov 2024</sub> &nbsp;←&nbsp; <b>Intern</b> <sub>Jan – Jun 2024</sub>
-    </td>
-  </tr>
-</table>
+**M.Sc. Information Systems Engineering & Management** · Universidade do Minho · 2019 – 2024
 
 <img src="assets/divider.svg" width="100%" alt="">
 
